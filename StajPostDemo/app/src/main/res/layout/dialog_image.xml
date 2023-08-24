@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/dialogImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/dialogTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Some description https://www.google.com/maps/dir/37.8508035,27.8423648/Kurtulu%C5%9F,+Selcuk+Efes,+09020+Efeler%2FAyd%C4%B1n/@37.8443001,27.837478,15z/data=!3m1!4b1!4m12!1m2!2m1!1sefes+google+maps!4m8!1m1!4e1!1m5!1m1!1s0x14b92b4306ef1385:0xd0889f36c91ba844!2m2!1d27.8455751!2d37.8380183?entry=ttu"
+        android:textColor="@android:color/black"
+        android:background="@android:color/darker_gray"
+        android:autoLink="web" />
+
+    <ImageButton
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:contentDescription="close image" />
+
+</LinearLayout>
